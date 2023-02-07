@@ -1,12 +1,14 @@
 <html>
 
 <head>
+    <header>
     <title>Codomain</title>
+    </header>
     <style>
         body {
             font-family: 'Courier New', Courier, monospace;
             color: rgb(80,80,80);
-            background: lightgrey;
+            background: white;
             padding: 10%;
         }
 
@@ -23,17 +25,17 @@
         .services-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: left;
+            justify-content: center;
         }
 
         .service {
             background: rgb(170, 54, 54);
             color: white;
             font-family: 'Courier New', Courier, monospace;
-            padding: 20px;
+            /* padding: 20px; */
             /* flex: 1; */
-            margin: 10px;
-            width: 200px;
+            margin: 1px;
+            width: 250px;
         }
 
         .service h2 {
@@ -45,8 +47,9 @@
         }
 
         .service img {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 100px;
+            opacity: 0.3;
             object-fit: cover;
         }
 
@@ -54,9 +57,9 @@
             background: white;
             font-family: 'Courier New', Courier, monospace;
             font-size: .7em;
-            padding: 20px;
+            padding: 10px;
             /* flex: 1; */
-            margin: 10px;
+            margin: 1px;
             width: 100px;
         }
 
@@ -68,7 +71,7 @@
 
         .clients {
             background: white;
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+            /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); */
             width: 100%;
             display: flex;
             flex-wrap: wrap;
@@ -100,107 +103,119 @@
     <p class="intro">We are a team of experienced software developers and consultants dedicated to helping businesses like yours succeed in today's digital world. Whether you need a custom software solution to streamline your operations, or expert guidance to take your digital product to the next level, we have the skills and experience to help.</p>
 
     <h2>We can...</h2>
-    <div class="services-list">
+    <section class="services-list">
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/plan.jpg">
             <h2>help with your tech strategy</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>develop software for you</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/floppy.jpg">
             <h2>modernise your old software</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-            <h2>quickly make prototypes</h2>
-        </div>
-        <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/cloud.jpg">
             <h2>move your software to the cloud</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/team.jpg">
             <h2>help you be more agile</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/lecture.jpg">
             <h2>train your developers</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/software-testing.jpg">
             <h2>set up automated testing</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/devops.png">
             <h2>set up DevOps practices</h2>
         </div>
-    </div>
+    </section>
 
     <h2>We are experts with</h2>
-    <div class="services-list">
+    <section class="services-list">
         <div class="tech">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Java</h2>
         </div>
         <div class="tech">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Kafka</h2>
         </div>
         <div class="tech">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Kubernetes</h2>
         </div>
-    </div>
+        <div class="tech">
+            <img src="images/services/code.jpg">
+            <h2>Go</h2>
+        </div>
+        <div class="tech">
+            <img src="images/services/code.jpg">
+            <h2>Typescript</h2>
+        </div>
+        <div class="tech">
+            <img src="images/services/code.jpg">
+            <h2>Spring</h2>
+        </div>
+        <div class="tech">
+            <h2>and many more</h2>
+        </div>
+
+    </section>
 
     
     <h2>Our projects include</h2>
-    <div class="services-list">
+    <section class="services-list">
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Tooling for trading platform</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Migrating FORTRAN to Java</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Train ticket sales platform</h2>
         </div>
         <div class="service">
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
+            <img src="images/services/code.jpg">
             <h2>Seismic station monitoring</h2>
         </div>
-    </div>
+    </section>
 
     <h2>Our clients are</h2>
-    <div class="clients">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="Website development">
-    </div>
+    <section class="clients">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+        <img src="images/services/code.jpg">
+    </section>
 
-    <br/>
+    <footer>
     <button class="contactus">Contact us</button>    
-    
+    </footer>
 </body>
 
 </html>
